@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/menu_change_theme"
+                android:title="Change Theme">
+                <menu>
+                    <item
+                        android:id="@+id/menu_light_theme"
+                        android:title="Light Theme"/>
+                    <item
+                        android:id="@+id/menu_dark_theme"
+                        android:title="Dark Theme"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Exit"/>
+</menu>
